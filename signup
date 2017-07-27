@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <fieldset>
+    <legend>personal information</legend>
+        <form action="hello.html" method="post">
+        <table align="center" border="1">
+           <tr><td> Enter name</td>
+            <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+           <td> Roll No</td>
+           <td> <input type="text" name="R"></td></tr>
+            <tr>
+            <td>phone no</td>
+           <td> <input type="text" name="Phone"></td></tr>
+             <tr>
+            <td>Email address</td>
+            <td><input type="text" name="Email"></td></tr>
+           
+            
+            <tr>
+            <td>Gender</td>
+           <td> <input type="radio" name="gender">Male
+           	<br>
+           	<input type="radio" name="gender">Female
+           </td></tr>
+           <tr>
+            <td>Hobbies</td>
+           <td> <input type="radio" name="hobby">natakshri
+           	<br>
+           	<input type="radio" name="hobby">lapa chupi
+           </td></tr>
+           <tr>
+           	<td>upload resume</td>
+           	<td><input type="file" name="resume"</td>
+           </tr>
+           <tr>
+           	<td>DOB</td>
+           	<td><select name="date">
+           	<option>1</option>
+           	</select>
+           	<select name="month">
+           	<option>1</option>
+           	</select>
+           	<select name="year">
+           	<option>1</option>
+           	</select>
+           	</td>
+           </tr>
+           
+           <tr><td><input type="submit" value="sign up" ></td>
+           <td><input type="RESET" value="RESET" ></td></tr>
+           
+           
+            </table>
+        </form>
+        
+        </fieldset>
+            
+    </body>
+</html>
