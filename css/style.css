@@ -1,0 +1,52 @@
+body{
+	background-color:grey; 
+}
+.corner-pic img{
+	height:150px;
+	weight:150px;
+	border-radius:50%;
+	float:right;
+	margin-top: 40px;
+
+}
+#sign_up{
+	background-color:green;
+	align-content: center;
+	transition-duration:1s;
+}
+#reset{
+	background-color: red;
+	align-content: center;
+	transition-duration: 0.4s;
+
+}
+#sign_up:hover{
+	background-color:#515D32;
+}
+#reset:hover{
+	background-color: #FD0D4D;
+}
+.title h1{
+	margin-left:45%;
+	border:none;
+
+}
+tr:nth-child(even){
+	background-color:#226482;
+}
+tr:nth-child(odd){
+	background-color:#FEFBF7;
+}
+h1{
+	border: 2px groove black;
+	
+}
+.login { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+}
+.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center;border:none }

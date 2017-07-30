@@ -9,11 +9,19 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
+    <style>
+        input{
+            background: rgba(0,0,0,0.3);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+        }
+    </style>
     <body>
+	<div class="title"><h1>Sign Up</h1></div>
     <fieldset>
     <legend>personal information</legend>
-        <form action="hello.html" method="post">
+        <form action="index.html" method="post">
         <table align="center" border="1">
            <tr><td> Enter name</td>
             <td><input type="text" name="name"></td>
@@ -59,8 +67,8 @@ and open the template in the editor.
            	</td>
            </tr>
            
-           <tr><td><input type="submit" value="sign up" ></td>
-           <td><input type="RESET" value="RESET" ></td></tr>
+           <tr><td><input id="sign_up" type="submit" value="sign up" ></td>
+           <td><input id="reset" type="RESET" value="RESET" ></td></tr>
            
            
             </table>
